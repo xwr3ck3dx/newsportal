@@ -5,10 +5,108 @@ body header .menu {
 
 body header .menu .navbar .collapse.navbar-collapse .d-flex {
   margin-bottom: 0;
+  margin-left: 3em !important;
 }
 
 body header .menu .navbar .collapse.navbar-collapse .navbar-nav {
-  margin-right: 0 !important;
+  margin-right: 3em !important;
   margin-left: auto;
+}
+
+body .content {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 3em;
+}
+
+body .content .content-left {
+  padding-left: 2em;
+}
+
+body .content .content-left .card {
+  -webkit-box-shadow: 1px 3px 3px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 1px 3px 3px 1px rgba(0, 0, 0, 0.2);
+}
+
+body .content .content-left .card > .row > .col-md-4 {
+  padding: 1em;
+}
+
+body .content .content-left .card:hover {
+  -webkit-box-shadow: 1px 3px 4px 2px rgba(0, 0, 0, 0.5);
+          box-shadow: 1px 3px 4px 2px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+body .content .content-right .socials {
+  margin-top: 2em;
+  padding: 0.5em;
+  -webkit-box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.2);
+          box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+body .content .content-right .list {
+  margin-top: 2em;
+  padding: 0.5em;
+  -webkit-box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.2);
+          box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+body .content .content-right .list .list-title {
+  padding-left: 1em;
+}
+
+body .content .content-right .list ol {
+  list-style-type: decimal;
+}
+
+body .footer {
+  margin-top: 3em;
+}
+
+body .footer a:hover {
+  text-decoration: none;
+}
+
+body .footer .section-padding {
+  padding: 2em 0;
+}
+
+body .footer .bottom {
+  background-color: #402102;
+}
+
+body .footer .bottom .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+body .footer .bottom .copyright {
+  color: #e5e5e5;
+  font-weight: 600;
+}
+
+body .footer .copyright a {
+  color: #ab987a;
+  text-decoration: none;
+  margin-left: 3px;
+  padding-right: 3px;
+}
+
+body .footer .bottom p {
+  margin-bottom: 0;
+  line-height: 50px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+body .footer .copyright p span {
+  color: #d1caca;
+}
+
+body .footer .bottom .copyright p, body .footer .bottom .copyright a:hover {
+  color: #ab987a;
 }
 /*# sourceMappingURL=main.css.map */
