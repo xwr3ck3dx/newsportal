@@ -1,0 +1,14 @@
+body header .menu {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+body header .menu .navbar .collapse.navbar-collapse .d-flex {
+  margin-bottom: 0;
+}
+
+body header .menu .navbar .collapse.navbar-collapse .navbar-nav {
+  margin-right: 0 !important;
+  margin-left: auto;
+}
+/*# sourceMappingURL=main.css.map */
