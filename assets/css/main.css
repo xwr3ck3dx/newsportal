@@ -1,3 +1,14 @@
+@font-face {
+  font-family: BauhausC;
+  src: url("../fonts/BauhausRegular.ttf");
+  font-weight: bold;
+}
+
+body {
+  font-family: BauhausC !important;
+  font-size: 1.2rem;
+}
+
 body header .menu {
   max-width: 1200px;
   margin: 0 auto;
@@ -17,6 +28,7 @@ body .content {
   max-width: 1200px;
   margin: 0 auto;
   margin-top: 3em;
+  margin-bottom: 3em;
 }
 
 body .content .content-left {
@@ -75,8 +87,18 @@ body .content .content-right .list ol {
   list-style-type: decimal;
 }
 
+body .ad-temp-2 {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+body .ad-temp-2 .full-img-ad {
+  max-width: 100%;
+  height: auto;
+}
+
 body .footer {
-  margin-top: 3em;
+  margin-top: 1em;
 }
 
 body .footer a:hover {
