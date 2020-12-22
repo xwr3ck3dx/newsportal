@@ -32,6 +32,19 @@ body .content .content-left .card > .row > .col-md-4 {
   padding: 1em;
 }
 
+body .content .content-left .card .card-body.details .card-text.detail-text {
+  margin-top: 2em;
+}
+
+body .content .content-left .card .card-body.details .card-text.caption {
+  text-align: center;
+}
+
+body .content .content-left .card .full-img {
+  width: 100%;
+  height: auto;
+}
+
 body .content .content-left .card:hover {
   -webkit-box-shadow: 1px 3px 4px 2px rgba(0, 0, 0, 0.5);
           box-shadow: 1px 3px 4px 2px rgba(0, 0, 0, 0.5);

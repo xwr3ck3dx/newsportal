@@ -38,7 +38,21 @@ body{
                         padding:1em;
                     }
                 }
+                .card-body.details{
+                    .card-text.detail-text{
+                        margin-top:2em;
+                    }
+                    .card-text.caption{
+                        text-align: center;
+                    }
+                }
+                .full-img{
+                    width:100%;
+                    height:auto;
+                    // margin-top:2em;
+                }
             }
+        
             .card:hover{
                 box-shadow: 1px 3px 4px 2px fade-out(black,0.5);
                 cursor: pointer;

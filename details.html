@@ -2,9 +2,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>NewsPortal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
+    <header>
+        <div class="menu">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img src="assets/img/download.png" alt="" srcset=""></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                      </li>
+                    </ul>
+                    
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </header>
+    <div class="content row">
+      <div class="content-left col-sm-9">
+        <div class="card mb-3">
+          <div class="row g-0">
+           
+            <div class="col">
+              <div class="card-body details">
+                <h5 class="card-title">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio sint quis qui aspernatur commodi inventore!</h5>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+
+                <img src="assets/img/test.jpg" class="rounded full-img" alt="...">
+                <p class="card-text caption"><small class="text-muted">Fig. Lorem ipsum dolor sit amet.</small></p>
+                <p class="card-text detail-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum laborum, nesciunt iste, alias aspernatur distinctio sunt non voluptatibus nisi quia unde cumque quos aperiam provident corporis laboriosam, exercitationem maxime dolores? Voluptates impedit exercitationem aliquam recusandae reprehenderit est maxime cupiditate, unde ut porro esse id. Aliquid, possimus, molestiae aut at vero voluptatum totam, facere odit sapiente suscipit adipisci. Voluptatem deleniti facilis reprehenderit praesentium autem, et est repellat recusandae totam! Aut, doloribus obcaecati nihil, dicta laudantium placeat beatae labore explicabo quia, vel expedita. Ex, autem, cupiditate nobis officia perspiciatis aut magni voluptates, temporibus exercitationem incidunt voluptatum fugiat facilis placeat ab optio sapiente eveniet aliquid dolores! Beatae consequuntur quae quaerat error sed quod alias voluptatem labore laudantium enim atque repellat doloremque nam illo, ratione esse laboriosam sint, numquam quo mollitia blanditiis! Hic non quidem debitis sit esse laboriosam blanditiis fugit magnam libero facilis reiciendis, laborum odit fugiat velit asperiores, at corrupti dolorum voluptatibus quo? Expedita pariatur dolorum alias modi veniam in tempore optio perspiciatis nemo blanditiis repellendus reprehenderit molestias, minima nisi natus vel quibusdam doloribus esse delectus illum minus nesciunt aperiam quasi consequatur. Id eveniet odio eum voluptas molestiae neque blanditiis dolores modi iusto similique quo nisi, saepe, aperiam nesciunt ea, odit incidunt.</p>
+                <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="100%" data-numposts="5"></div>
+                <div id="fb-root"></div>
+                <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v9.0" nonce="LkBCUum6"></script>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div class="content-right col-sm-3">
+        <div class="ad-temp-1">
+          <img src="assets/img/ad.png" alt="" srcset="" class="img-fluid">
+        </div>
+        <div class="socials">
+            <img src="assets/img/fb.png" alt="" srcset="" class="img-fluid">
+            <img src="assets/img/insta.png" alt="" srcset="" class="img-fluid">
+        </div>
+        <div class="list">
+          <div class="list-title">
+            <h4>Most Read</h4>
+          </div>
+          <ol class="">
+            <li class="">Cras justo odio</li>
+            <li class="">Dapibus ac facilisis in</li>
+            <li class="">Morbi leo risus</li>
+            <li class="">Porta ac consectetur ac</li>
+            <li class="">Vestibulum at eros</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="bottom section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <div class="copyright">
+                <p>© <span>2020</span> <a href="#" class="transition">Samundra Raj Bajracharya</a> All rights reserved.</p>
+              </div>
+            </div>
+          </div>
+          <div class="text-center center-block">
+            
+              <a href="https://www.facebook.com/" id="social-fb" class="social "><i class="fa fa-facebook-square fa-3x social"></i></a>
+	            <a href="https://twitter.com/" id="social-tw" class="social "><i class="fa fa-twitter-square fa-3x social"></i></a>
+	            <a href="https://plus.google.com/" id="social-gp" class="social "><i class="fa fa-google-plus-square fa-3x social"></i></a>
+	            <a href="mailto:samundra01@gmail.com" id="social-em" class="social "><i class="fa fa-envelope-square fa-3x social"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
     
+
+
+   
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
 </body>
 </html>
