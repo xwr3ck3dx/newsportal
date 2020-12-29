@@ -27,6 +27,15 @@ body{
                     .navbar-nav{
                         margin-right:3em!important;
                         margin-left:auto;
+                        font-size:1.2em;
+                        .nav-item{
+                            a{
+                                color:fade-out(map-get($map: $colors, $key: sixth),0.3);
+                            }
+                            a:hover{
+                                color:fade-out(map-get($colors,sixth),0.1);
+                            }
+                        }
                     }
                 }
             }
@@ -46,13 +55,38 @@ body{
                         padding:1em;
                     }
                 }
+                .card-body{
+                    .card-title{
+                        font-size:1.2em;
+                        font-weight:600;
+                    }
+                    .card-text{
+                        font-size:0.9em;
+                        font-weight:200;
+                        margin-bottom:1em;
+                        .text-muted{
+                            font-size:0.8em
+                        }
+                    }
+                }
                 .card-body.details{
+                    .card-title{
+                        font-size:1.4em;
+                        font-weight:bolder;
+                    }
                     .card-text.detail-text{
                         margin-top:2em;
                     }
                     .card-text.caption{
                         text-align: center;
+                        .text-muted{
+                            font-size:0.9em;
+                        }
+                        
                     }
+                }
+                .card-body.details:hover{
+                    cursor: context-menu
                 }
                 .full-img{
                     width:100%;
